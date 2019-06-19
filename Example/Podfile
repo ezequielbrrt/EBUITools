@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EBUITools_Example' do
+  pod 'EBUITools', :path => '../'
+
+  target 'EBUITools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
