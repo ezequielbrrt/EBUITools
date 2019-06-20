@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EBUITools'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'UI Library created to help you'
 
 # This description is used to generate tags and improve search results.
