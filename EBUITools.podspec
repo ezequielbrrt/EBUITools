@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EBUITools'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of EBUITools.'
+  s.version          = '1.0.0'
+  s.summary          = 'UI Library created to help you'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,23 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ezequielbtc/EBUITools'
+  s.homepage         = 'https://github.com/ezequielbrrt/EBUITools'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ezequielbtc' => 'ezequiel.barreto@betechcapital.com' }
-  s.source           = { :git => 'https://github.com/ezequielbtc/EBUITools.git', :tag => s.version.to_s }
+  s.author           = { 'ezequielbrrt' => 'ezequielbrrt@gmail.com' }
+  s.source           = { :git => 'https://github.com/ezequielbrrt/EBUITools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'EBUITools/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'EBUITools' => ['EBUITools/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  #s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

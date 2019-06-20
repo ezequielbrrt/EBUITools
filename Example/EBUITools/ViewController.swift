@@ -7,18 +7,24 @@
 //
 
 import UIKit
+import EBUITools
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var containerView: UIView!
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        containerView.setGradient(color1: UIColor.init(hexString: "4fc64b"), color2: UIColor.init(hexString: "1af4a4"))
+        containerView.shakeAnimation(moveScale: 2, minimumAlpha: 0.5, duration: 3)
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
 }
+
+
 

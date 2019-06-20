@@ -22,7 +22,7 @@ pod 'EBUITools'
 
 ## Author
 
-ezequielbtc, ezequiel.barreto@betechcapital.com
+ezequielbrrt, ezequielbrrt@gmail.com
 
 ## License
 

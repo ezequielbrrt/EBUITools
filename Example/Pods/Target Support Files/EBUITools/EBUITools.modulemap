@@ -1,0 +1,6 @@
+framework module EBUITools {
+  umbrella header "EBUITools-umbrella.h"
+
+  export *
+  module * { export * }
+}

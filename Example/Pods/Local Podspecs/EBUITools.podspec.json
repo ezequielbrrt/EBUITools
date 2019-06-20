@@ -1,0 +1,22 @@
+{
+  "name": "EBUITools",
+  "version": "0.1.0",
+  "summary": "A short description of EBUITools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ezequielbtc/EBUITools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ezequielbtc": "ezequiel.barreto@betechcapital.com"
+  },
+  "source": {
+    "git": "https://github.com/ezequielbtc/EBUITools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EBUITools/Classes/**/*"
+}
