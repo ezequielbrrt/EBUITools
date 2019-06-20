@@ -14,8 +14,8 @@
 		7BEF09A1929B743F25F8D8E461F88B42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		86181F01221178A68D5806B7D77793FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		89360AF9D42943A7CB3E7180358E75E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		932ED8D522BC29D5004B8C7F /* EBUIImaveViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932ED8D422BC29D5004B8C7F /* EBUIImaveViewExtension.swift */; };
 		9368AC5722BAC1FA0000D657 /* EBUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9368AC5622BAC1FA0000D657 /* EBUIColorExtension.swift */; };
-		9368AC5922BAC2DE0000D657 /* EBUIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9368AC5822BAC2DE0000D657 /* EBUIImageExtension.swift */; };
 		9368AC5B22BAC3A50000D657 /* EBTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9368AC5A22BAC3A50000D657 /* EBTools.swift */; };
 		9368AC5D22BAC6250000D657 /* EBUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9368AC5C22BAC6250000D657 /* EBUIView.swift */; };
 		B67AF90156DD660163B9A67605F4A5A8 /* EBUITools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 670B63278A00BEF71C64288EEC76A9D6 /* EBUITools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -61,8 +61,8 @@
 		670B63278A00BEF71C64288EEC76A9D6 /* EBUITools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EBUITools-umbrella.h"; sourceTree = "<group>"; };
 		6995FD0DBB5D28BA3C74AF149C677606 /* Pods-EBUITools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EBUITools_Example-frameworks.sh"; sourceTree = "<group>"; };
 		779BCFDCD2DAE683437FD21C11C680B7 /* Pods-EBUITools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EBUITools_Tests-dummy.m"; sourceTree = "<group>"; };
+		932ED8D422BC29D5004B8C7F /* EBUIImaveViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBUIImaveViewExtension.swift; sourceTree = "<group>"; };
 		9368AC5622BAC1FA0000D657 /* EBUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBUIColorExtension.swift; sourceTree = "<group>"; };
-		9368AC5822BAC2DE0000D657 /* EBUIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBUIImageExtension.swift; sourceTree = "<group>"; };
 		9368AC5A22BAC3A50000D657 /* EBTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBTools.swift; sourceTree = "<group>"; };
 		9368AC5C22BAC6250000D657 /* EBUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBUIView.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -204,8 +204,8 @@
 			isa = PBXGroup;
 			children = (
 				9368AC5622BAC1FA0000D657 /* EBUIColorExtension.swift */,
-				9368AC5822BAC2DE0000D657 /* EBUIImageExtension.swift */,
 				9368AC5C22BAC6250000D657 /* EBUIView.swift */,
+				932ED8D422BC29D5004B8C7F /* EBUIImaveViewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -397,7 +397,7 @@
 				9368AC5B22BAC3A50000D657 /* EBTools.swift in Sources */,
 				9368AC5722BAC1FA0000D657 /* EBUIColorExtension.swift in Sources */,
 				59E44CDCF8822CB5329BA0B638E5708F /* EBUITools-dummy.m in Sources */,
-				9368AC5922BAC2DE0000D657 /* EBUIImageExtension.swift in Sources */,
+				932ED8D522BC29D5004B8C7F /* EBUIImaveViewExtension.swift in Sources */,
 				9368AC5D22BAC6250000D657 /* EBUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

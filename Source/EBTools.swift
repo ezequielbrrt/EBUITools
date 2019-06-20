@@ -34,5 +34,15 @@ public class EBUItools: NSObject{
     public class func isPhoneXsMax() -> Bool {
         return (screenHeight == 896)
     }
+    
+    public class func getRandomColor() -> UIColor{
+        let randomRed:CGFloat = CGFloat(drand48())
+        
+        let randomGreen:CGFloat = CGFloat(drand48())
+        
+        let randomBlue:CGFloat = CGFloat(drand48())
+        
+        return UIColor(red: randomRed, green: randomGreen, blue: randomBlue, alpha: 1.0)
+    }
    
 }

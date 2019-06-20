@@ -26,11 +26,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="google2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9jY-Xu-OG2">
+                                <rect key="frame" x="67" y="255" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="containerView" destination="oB6-NT-W5s" id="j5l-Mu-3HE"/>
+                        <outlet property="imageView" destination="9jY-Xu-OG2" id="hza-7h-lkL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -38,4 +43,7 @@
             <point key="canvasLocation" x="-30" y="-228"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="google2.jpg" width="50" height="37"/>
+    </resources>
 </document>

@@ -131,4 +131,26 @@ extension UIView{
         })
     }
     
+    public func drawShadow(shadowSize: CGFloat, shadowOpacity: CGFloat){
+        
+        let shadowPath = UIBezierPath(rect: CGRect(x: -shadowSize / 2,
+                                                   y: -shadowSize / 2,
+                                                   width: self.frame.size.width + shadowSize,
+                                                   height: self.frame.size.height + shadowSize))
+        self.layer.masksToBounds = false
+        self.layer.shadowColor = UIColor.black.cgColor;
+        self.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
+        self.layer.shadowOpacity = Float(shadowOpacity)
+        self.layer.shadowPath = shadowPath.cgPath
+        
+    }
+    
+    public func offAlpha(view : UIView){
+        view.alpha = 0
+    }
+    
+    public func onAlpha(view : UIView){
+        view.alpha = 1
+    }
+    
 }
